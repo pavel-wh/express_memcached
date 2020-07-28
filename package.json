@@ -1,0 +1,28 @@
+{
+  "name": "express_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
+    "build": "babel index.js --out-file index-compiled.js"
+  },
+  "keywords": [],
+  "author": "pavel_wh <pavel.wh@yandex.ru> ",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "memcached": "^2.2.2",
+    "pug": "^3.0.0"
+  }
+}
